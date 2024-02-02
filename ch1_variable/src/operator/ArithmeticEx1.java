@@ -1,6 +1,6 @@
 package operator;
 
-//  산술연산자 :  + , - , * , / , %(나머지 연산자)
+// 산술연산자 : +, -, *, /, %(나머지)
 public class ArithmeticEx1 {
 
   public static void main(String[] args) {
@@ -30,6 +30,6 @@ public class ArithmeticEx1 {
 
     char ch1 = 'A' + 1;
     // char ch2 = ch1 + 1;
-    System.out.printf("ch= %c", ch1);
+    System.out.printf("ch = %c", ch1);
   }
 }
