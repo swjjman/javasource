@@ -9,9 +9,8 @@ public class ArrayEx10 {
   public static void main(String[] args) {
     int arr[] = { 25, 85, 55, 65, 5, 3 };
 
-    for (int i = 0; i < arr.length; i++) {
-      arr[i] = 1 + i;
-    }
+    // 자바가 제공하는 sort
+    Arrays.sort(arr);
     System.out.println(Arrays.toString(arr));
   }
 }
