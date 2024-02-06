@@ -10,9 +10,6 @@ public class Member {
   private String grade = "silver";
   private int point;
 
-  // public Member() {}
-  //
-
   public Member(String id, String password, String name) {
     this.id = id;
     this.password = password;
