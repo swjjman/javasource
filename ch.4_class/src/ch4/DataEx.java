@@ -16,13 +16,10 @@ public class DataEx {
   //매개변수의 타입 => 1) 기본형 2) 참조형
   //기본형 매개변수 : 변수의 값을 읽기만 가능
   //참조형 매개변수 : 변수의 값을 읽고 변경 가능
-
-  //            기본형 매개변수
   static void change(int x) {
     x = 20;
   }
 
-  //            참조형 매개변수
   static void change2(Data obj) {
     obj.x = 20;
   }
